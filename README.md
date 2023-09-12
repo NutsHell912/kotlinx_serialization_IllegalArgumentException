@@ -1,5 +1,7 @@
 # IllegalArgumentException: Bad position in Kotlin Serialization 1.5.0
 
+https://github.com/Kotlin/kotlinx.serialization/issues/2231
+
 Demostration of IllegalArgumentException in Json.decodeFromStream on API level 23 if stream more than 16384 bytes
 
 If run this project on 23 API level, Json.decodeFromStream throws 
